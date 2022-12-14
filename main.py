@@ -18,6 +18,10 @@ def ip_finder(string):
     else:
         return o
 
+k="word: hello"
+l="192.168.0.1"
+print(k + " is a valid IP address: " + str(ip_checker(k)))
+print(l + " is a valid IP address: " + str(ip_checker(l)))
+j="jcnncjdnceencneuneu192.168.0.1uduu3h3fhh38h8f"
+print("in " + j+ " found " + ip_finder(j)[0])
 
-print(ip_checker("192.168.0.1"))
-print(ip_finder("jcnncjdnceencneuneu192.168.0.1uduu3h3fhh38h8f")[0])
